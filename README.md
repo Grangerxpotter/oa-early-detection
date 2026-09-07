@@ -76,11 +76,11 @@ The ESP32 receives and processes the raw sensor data.
 
 Processing includes:
 
-*Signal acquisition
-*Noise filtering
-*Artefact reduction
-*Feature extraction
-*Feature fusion
+-> Signal acquisition
+-> Noise filtering
+-> Artefact reduction
+-> Feature extraction
+-> Feature fusion
 4. Analyse
 
 The extracted features are supplied to an AI/ML model.
@@ -91,20 +91,20 @@ The model is designed to learn relationships between multimodal signal patterns 
 
 The system generates an OA risk profile such as:
 
-*Low Risk
-*Moderate Risk
-*High Risk
+-> Low Risk
+-> Moderate Risk
+-> High Risk
 6. Display
 
 The result is transmitted through Bluetooth to a mobile application.
 
 The application can display:
 
-*OA risk score
-*Signal quality
-*Key insights
-*Historical trends
-*Suggested next steps
+-> OA risk score
+-> Signal quality
+-> Key insights
+-> Historical trends
+-> Suggested next steps
 ## AI/ML Pipeline
 Raw Sensor Signals
         ↓
@@ -142,21 +142,21 @@ Combining these complementary signals may allow the model to identify patterns t
 | **Knee Patch / Strap** | Wearable sensor integration              |
 ## Software Stack
 **Embedded System**
-*ESP32
-*Sensor interfacing
-*Signal acquisition
-*Digital signal processing
-*Bluetooth communication
+-> ESP32
+-> Sensor interfacing
+-> Signal acquisition
+-> Digital signal processing
+-> Bluetooth communication
 **AI / Machine Learning**
 
 Potential pipeline:
 
-*Python
-*NumPy
-*Pandas
-*SciPy
-*Scikit-learn
-*TensorFlow / PyTorch (depending on final model)
+-> Python
+-> NumPy
+-> Pandas
+-> SciPy
+-> Scikit-learn
+-> TensorFlow / PyTorch (depending on final model)
 **Mobile Application**
 
 The mobile application can be implemented using a suitable framework such as:
