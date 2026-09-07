@@ -76,7 +76,7 @@ The ESP32 receives and processes the raw sensor data.
 
 Processing includes:
 
--> Signal acquisition
+</p>-> Signal acquisitionv</p>
 -> Noise filtering
 -> Artefact reduction
 -> Feature extraction
