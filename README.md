@@ -64,7 +64,7 @@ The complementary signals are then processed and fused before AI-based analysis.
 How It Works
 1. Wear
 
-The OsteoTrack patch is positioned around the knee.
+The OsteoSense patch is positioned around the knee.
 
 2. Sense
 
@@ -76,11 +76,11 @@ The ESP32 receives and processes the raw sensor data.
 
 Processing includes:
 
-Signal acquisition
-Noise filtering
-Artefact reduction
-Feature extraction
-Feature fusion
+*Signal acquisition
+*Noise filtering
+*Artefact reduction
+*Feature extraction
+*Feature fusion
 4. Analyse
 
 The extracted features are supplied to an AI/ML model.
@@ -91,20 +91,20 @@ The model is designed to learn relationships between multimodal signal patterns 
 
 The system generates an OA risk profile such as:
 
-Low Risk
-Moderate Risk
-High Risk
+*Low Risk
+*Moderate Risk
+*High Risk
 6. Display
 
 The result is transmitted through Bluetooth to a mobile application.
 
 The application can display:
 
-OA risk score
-Signal quality
-Key insights
-Historical trends
-Suggested next steps
+*OA risk score
+*Signal quality
+*Key insights
+*Historical trends
+*Suggested next steps
 ## AI/ML Pipeline
 Raw Sensor Signals
         ↓
@@ -196,7 +196,7 @@ The ₹3K–₹4K figure represents an estimated prototype cost, not a final com
 🚫 Non-invasive sensing approach
 📊 Potential longitudinal monitoring
 <img width="714" height="480" alt="oa_key feature" src="https://github.com/user-attachments/assets/dbfbe880-82b2-4a7c-9363-1d03cc5407ec" />
-# What Makes OsteoTrack Different?
+# What Makes OsteoSense Different?
 **1. Multimodal Instead of Single-Sensor**
 
 Rather than depending on one signal, OsteoTrack combines two complementary sensing modalities.
@@ -218,7 +218,7 @@ The system is designed to reduce dependence on large clinical equipment for the 
 The proof-of-concept prototype is targeted at approximately ₹3K–₹4K.
 ## Limitations
 
-OsteoTrack is currently a prototype/research concept and has important limitations.
+OsteoSense is currently a prototype/research concept and has important limitations.
 
 *Clinical validation is required.
 *Sensor placement can influence measurements.
@@ -298,40 +298,6 @@ Developed as a prototype for Smart India Hackathon 2026.
 *Samaydip Roy
 *Adrija Chanda
 
-## Suggested Repository Structure
-OsteoSense/
-│
-├── README.md
-│
-├── hardware/
-│   ├── circuit/
-│   ├── pcb/
-│   └── schematics/
-│
-├── firmware/
-│   ├── esp32/
-│   ├── ad5933/
-│   └── nirs/
-│
-├── ai_ml/
-│   ├── preprocessing/
-│   ├── feature_extraction/
-│   ├── models/
-│   └── evaluation/
-│
-├── mobile_app/
-│   ├── android/
-│   └── assets/
-│
-├── data/
-│   └── sample/
-│
-├── docs/
-│   ├── architecture/
-│   └── presentations/
-│
-└── LICENSE
-
 ## Project Status
 # Current Stage
 
@@ -351,18 +317,3 @@ OsteoSense/
 OsteoTrack is a *research and prototype project.*
 
 It is not currently a clinically validated diagnostic device and should not be used to diagnose, treat, or rule out Osteoarthritis. Any clinical application would require appropriate validation, regulatory compliance, and evaluation by qualified healthcare professionals.
-
-## OsteoSense
-Sense. Process. Learn. Assess.
-
-One Patch. Multiple Signals. One AI-Based Risk Profile.
-
-### One thing I'd recommend for your actual GitHub
-
-Don't make the README *too text-heavy*. Your **first screen** should immediately show:
-
-**OsteoTrack → Problem → Solution → Architecture → Demo → Hardware → AI → Results**
-
-And put your **system architecture image, knee-patch image, and mobile-app mockup right near the top**. That will make the repository look substantially more professional to SIH judges.
-
-Also, since you're still developing the prototype, this README deliberately says **“risk assessment/screening” rather than claiming that OsteoTrack can already diagnose OA or “cure” it**. That's a much safer and more credible position for judges.
