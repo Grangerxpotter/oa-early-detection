@@ -63,5 +63,4 @@ The complementary signals are then processed and fused before AI-based analysis.
 
 <img width="1536" height="1024" alt="OA_system architechture" src="https://github.com/user-attachments/assets/78a10bb9-308f-4dbf-8139-db6a45d3290d" />
 
-                     ↓
-          Risk Score + Key Insights
+                     ↓          Risk Score + Key Insights
