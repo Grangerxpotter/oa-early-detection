@@ -1,4 +1,4 @@
-# 🦵 OsteoSense
+#  OsteoSense
 ### AI-Powered Multimodal Smart Knee Patch for Early Osteoarthritis Risk Assessment
 
 > **One Patch. Multiple Signals. One AI-Based Risk Profile.**
