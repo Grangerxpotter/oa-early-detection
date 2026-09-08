@@ -77,10 +77,10 @@ The ESP32 receives and processes the raw sensor data.
 Processing includes:
 
 </p>-> Signal acquisitionv</p>
--> Noise filtering
--> Artefact reduction
--> Feature extraction
--> Feature fusion
+</p>-> Noise filtering</p>
+</p>-> Artefact reduction</p>
+</p>-> Feature extraction</p>
+</p>-> Feature fusion</p>
 4. Analyse
 
 The extracted features are supplied to an AI/ML model.
